@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    background-color: rgb(	94,	197, 220);                                              
+}
+  .main-div{
+    height: 700px;
+    background-color: rgb(	94,	197, 220);
+}
+header{
+    margin-left: 35px;
+    margin-top: 0px;
+    padding-top: 2px;
+
+}
+.logo{
+    padding-left: 28px;
+    padding-top: 8px;
+}
+
+.people{
+    width: 741px;
+    padding-left: 5px;
+    margin-top: 135px;
+    height: 511px;
+}
+.fly{
+    padding-left: 139px;
+    padding-bottom: 163px;
+    
+}
+  
+
+nav{
+    float: right;
+    float: right;
+    padding-top: 21px;
+    padding-right: 40px;
+    background-color: rgb(	94,	197, 220);
+}
+nav li{
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+    float: left;
+    display: inline;
+    margin-right: 40px;
+        
+}
+nav a{
+    text-decoration: none;
+ 
+    font-family: Inter;
+    font-weight: 734;
+    font-size: 23px;}
+@supports (-webkit-text-stroke: 0.1px rgb(47,82,122)) {
+    nav a {
+      
+      -webkit-text-fill-color: white;
+    }
+
+    }
+    @media only screen and (max-width: 700px){
+
+        .people 
+        {width: 453px;
+        margin-left: -8px;
+        margin-top: 491px;
+        height: 436px;
+        margin-bottom: -345px;
+    }
+    .fly {
+        padding-bottom: 29px;
+        margin-top: -579px;
+        width: 397px;
+        padding-left: 34px;
+    }
+        .kk{
+        padding-top: 24px;
+         width: 99px;
+    }
+    .navbar-toggler-icon{
+        width: 63px;
+        height: 53px;
+    }
+    .navbar-toggler{
+        margin-top: 19px;
+            margin-right: 5px;
+            background: rgb(	94,	197, 220);
+        }
+        } 
+    
